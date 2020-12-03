@@ -1,7 +1,7 @@
 const bodyBackground = document.querySelector("body");
 
-const backgroundList = ["66023124_p0.jpg", "78236624_p0.png", "85970602_p0.png"];
-const IMG_NUMBER = 3;
+const backgroundList = ["66023124_p0.jpg", "73531546_p0.jpg", "78127150_p0.png", "78236624_p0.png", "85970602_p0.png"];
+const IMG_NUMBER = 5;
 
 function paintImage(imgSrc) {
     const image = new Image();
