@@ -5,23 +5,28 @@
     <meta charset="utf-8" />
   </head>
   <body>
-    <div class="js-clock">
+    <div class="js-clock clock--big">
       <h1>00:00</h1>
     </div>
 
-    <form class="js-form form">
-      <input type="text" placeholder="당신의 이름이 궁금해요!" />
-    </form>
-    <h4 class="js-greetings greetings"></h4>
+    <div class="user-name">
+      <form class="js-form form">
+        <input type="text" placeholder="당신의 이름을 알려주세요." />
+      </form>
+      <h4 class="js-greetings greetings"></h4>
+    </div>
 
     <form class="js-to-do-form">
-      <input type="text" placeholder="메모 할 것을 적어주세요!" />
+      <input type="text" placeholder="▼   메모할 것이 있나요?   ▼" />
     </form>
     <ul class="js-to-do-list"></ul>
+
+    <span class="js-weather weather"></span>
 
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>
     <script src="background.js"></script>
+    <script src="weather.js"></script>
   </body>
 </html>
